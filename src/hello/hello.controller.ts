@@ -4,6 +4,6 @@ import { Controller, Get } from '@nestjs/common';
 export class HelloController {
   @Get()
   getHello(): string {
-    return 'Hello World! Welcome to Schedula Backend!';
+    return 'Welcome to Schedula Backend!';
   }
 }
