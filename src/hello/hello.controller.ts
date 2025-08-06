@@ -1,6 +1,6 @@
 import { Controller, Get } from '@nestjs/common';
 
-@Controller('hello')
+@Controller()
 export class HelloController {
   @Get()
   getHello(): { message: string } {
