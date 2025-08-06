@@ -15,7 +15,7 @@ describe('AppController', () => {
   });
 
   describe('root', () => {
-    it('should return "Hello World! Welcome to Schedula Backend!"', () => {
+    it('should return "Welcome to Schedula Backend!"', () => {
       expect(appController.getHello()).toBe('Welcome to Schedula Backend!');
     });
   });
